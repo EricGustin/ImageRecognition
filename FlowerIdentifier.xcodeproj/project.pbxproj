@@ -13,8 +13,7 @@
 		FA3C801024DBB8AB00309ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3C800E24DBB8AB00309ECA /* Main.storyboard */; };
 		FA3C801224DBB8AB00309ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3C801124DBB8AB00309ECA /* Assets.xcassets */; };
 		FA3C801524DBB8AB00309ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3C801324DBB8AB00309ECA /* LaunchScreen.storyboard */; };
-		FA3C801F24DBC44900309ECA /* Oxford102.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FA3C801E24DBC44900309ECA /* Oxford102.mlmodel */; };
-		FA3C802124DBCD7D00309ECA /* FlowerShop.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FA3C802024DBCD7D00309ECA /* FlowerShop.mlmodel */; };
+		FAC607F224E2500000FFC590 /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FAC607F124E2500000FFC590 /* Food101.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +25,7 @@
 		FA3C801124DBB8AB00309ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3C801424DBB8AB00309ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3C801624DBB8AB00309ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA3C801E24DBC44900309ECA /* Oxford102.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Oxford102.mlmodel; sourceTree = "<group>"; };
-		FA3C802024DBCD7D00309ECA /* FlowerShop.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerShop.mlmodel; sourceTree = "<group>"; };
+		FAC607F124E2500000FFC590 /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +58,7 @@
 		FA3C800724DBB8AB00309ECA /* FlowerIdentifier */ = {
 			isa = PBXGroup;
 			children = (
-				FA3C801E24DBC44900309ECA /* Oxford102.mlmodel */,
-				FA3C802024DBCD7D00309ECA /* FlowerShop.mlmodel */,
+				FAC607F124E2500000FFC590 /* Food101.mlmodel */,
 				FA3C800824DBB8AB00309ECA /* AppDelegate.swift */,
 				FA3C800A24DBB8AB00309ECA /* SceneDelegate.swift */,
 				FA3C800C24DBB8AB00309ECA /* ViewController.swift */,
@@ -146,8 +143,7 @@
 			files = (
 				FA3C800D24DBB8AB00309ECA /* ViewController.swift in Sources */,
 				FA3C800924DBB8AB00309ECA /* AppDelegate.swift in Sources */,
-				FA3C802124DBCD7D00309ECA /* FlowerShop.mlmodel in Sources */,
-				FA3C801F24DBC44900309ECA /* Oxford102.mlmodel in Sources */,
+				FAC607F224E2500000FFC590 /* Food101.mlmodel in Sources */,
 				FA3C800B24DBB8AB00309ECA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
