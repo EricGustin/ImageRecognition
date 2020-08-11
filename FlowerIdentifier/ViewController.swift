@@ -77,15 +77,32 @@ class ViewController: UIViewController {
       if classifications.isEmpty {
         self.predictionLabel.text = "Nothing recognized."
       } else {
-        let topClassifications = classifications.prefix(2)
+        let topClassifications = classifications.prefix(1)
         let descriptions = topClassifications.map { classification in
           return String(format: "(%.2f) %@", classification.confidence, classification.identifier)
         }
         self.predictionLabel.text = descriptions.joined(separator: " |")
+        
+        // Ask user if they would like to open safari
+        self.showAlertController(foodName: topClassifications[0].identifier.replacingOccurrences(of: "_", with: " "))
       }
     }
   }
 
+  private func showAlertController(foodName: String) {
+    let alert = UIAlertController(title: "Would you like to learn how to make \(foodName)?", message: "", preferredStyle: .alert)
+    let cancelAction = UIAlertAction(title: "CANCEL", style: .default) { (action) in
+      //
+    }
+    let yesAction = UIAlertAction(title: "YES", style: .default) { (action) in
+      //
+    }
+    alert.addAction(yesAction)
+    alert.addAction(cancelAction)
+    self.present(alert, animated: true) {
+      //
+    }
+  }
 
 }
 
