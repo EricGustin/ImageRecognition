@@ -95,7 +95,9 @@ class ViewController: UIViewController {
       //
     }
     let yesAction = UIAlertAction(title: "YES", style: .default) { (action) in
-      //
+      if let url = URL(string: "https://www.google.com/search?q=how%20to%20make%20\(foodName.replacingOccurrences(of: " ", with: "%20"))") {
+        UIApplication.shared.open(url)
+      }
     }
     alert.addAction(yesAction)
     alert.addAction(cancelAction)
