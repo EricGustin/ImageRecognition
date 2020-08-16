@@ -48,7 +48,7 @@ class ViewController: UIViewController {
   }
   
   private func createClassificationRequest(for image: UIImage) {
-    predictionLabel.text = "Classifying flower..."
+    predictionLabel.text = "Classifying type of food..."
   
     let orientation = CGImagePropertyOrientation(rawValue: UInt32(image.imageOrientation.rawValue))  // ??? will this work ???
     
